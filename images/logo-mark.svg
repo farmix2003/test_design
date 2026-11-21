@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="20" viewBox="544 576 25 20" fill="none">
+  <defs>
+    <linearGradient id="lm1" x1="545.487" y1="585.372" x2="569" y2="585.372" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FBD252"/><stop offset=".45" stop-color="#AC8230"/><stop offset=".71" stop-color="#FDD551"/><stop offset="1" stop-color="#A3782A"/>
+    </linearGradient>
+    <linearGradient id="lm2" x1="544.001" y1="587.32" x2="567.264" y2="584.155" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FBD252"/><stop offset=".45" stop-color="#AC8230"/><stop offset=".71" stop-color="#FDD551"/><stop offset="1" stop-color="#A3782A"/>
+    </linearGradient>
+    <linearGradient id="lm3" x1="546.996" y1="585.593" x2="567.949" y2="588.768" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FBD252"/><stop offset=".45" stop-color="#AC8230"/><stop offset=".71" stop-color="#FDD551"/><stop offset="1" stop-color="#A3782A"/>
+    </linearGradient>
+  </defs>
+  <path d="M563.12 594.742H551.364L551.329 594.688L545.487 585.372L545.522 585.318L551.364 576H563.12L563.155 576.054L569 585.37L568.965 585.423L563.12 594.739V594.742ZM551.504 594.521H562.983L568.723 585.37L562.983 576.22H551.504L545.764 585.372L551.504 594.524V594.521Z" fill="url(#lm1)"/>
+  <path d="M551.098 595.946L551.057 595.895L544 587.321L544.026 587.262L548.565 577.35L560.231 576.005L560.272 576.056L567.329 584.63L567.303 584.689L562.764 594.602L551.101 595.946H551.098ZM544.275 587.289L551.206 595.712L562.597 594.398L567.058 584.66L560.123 576.239L548.732 577.554L544.275 587.289Z" fill="url(#lm2)"/>
+  <path d="M561.49 596L550.978 594.65L546.991 585.595L547.035 585.544L553.519 577.89L553.586 577.898L564.032 579.24L568.019 588.295L567.975 588.346L561.49 596ZM551.147 594.449L561.385 595.763L567.741 588.26L563.859 579.441L553.621 578.127L547.266 585.63L551.147 594.449Z" fill="url(#lm3)"/>
+</svg>

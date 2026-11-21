@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <defs>
+    <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a2b"/>
+      <stop offset="100%" stop-color="#0e1f16"/>
+    </linearGradient>
+    <linearGradient id="suitGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2d3748"/>
+      <stop offset="100%" stop-color="#1a202c"/>
+    </linearGradient>
+    <linearGradient id="skinGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbd5b5"/>
+      <stop offset="100%" stop-color="#e0a97c"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="500" fill="url(#bgGrad2)"/>
+  
+  <!-- Presentation gesture silhouette -->
+  <g transform="translate(80, 60)">
+    <!-- Head -->
+    <ellipse cx="170" cy="110" rx="50" ry="65" fill="url(#skinGrad2)"/>
+    <!-- Hair -->
+    <path d="M120,105 C120,50 220,50 220,105 C220,70 195,55 170,55 C145,55 120,70 120,105 Z" fill="#2d3748"/>
+    <!-- Suit -->
+    <path d="M70,210 C90,170 140,165 155,165 L185,165 C200,165 250,170 270,210 L300,380 L40,380 Z" fill="url(#suitGrad2)"/>
+    <!-- Collar & tie -->
+    <polygon points="150,165 170,205 190,165" fill="#f8fafc"/>
+    <polygon points="166,170 174,170 178,250 170,270 162,250" fill="#15803d"/>
+    <!-- Extended Hand/Arm Gesture -->
+    <path d="M250,230 Q290,260 330,280 Q320,300 280,280 Z" fill="url(#suitGrad2)"/>
+    <ellipse cx="340" cy="285" rx="20" ry="14" fill="url(#skinGrad2)"/>
+  </g>
+</svg>

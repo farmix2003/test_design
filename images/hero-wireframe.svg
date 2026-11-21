@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 800" width="1440" height="800" fill="none">
+  <defs>
+    <linearGradient id="gridFade" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4ade80" stop-opacity="0.25"/>
+      <stop offset="50%" stop-color="#22c55e" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#15803d" stop-opacity="0.02"/>
+    </linearGradient>
+  </defs>
+  
+  <g stroke="url(#gridFade)" stroke-width="0.8">
+    <!-- Curved longitudinal lines -->
+    <path d="M-100,200 C300,100 800,200 1500,50" />
+    <path d="M-100,280 C320,180 820,300 1500,120" />
+    <path d="M-100,360 C340,260 840,400 1500,200" />
+    <path d="M-100,440 C360,340 860,500 1500,300" />
+    <path d="M-100,520 C380,420 880,600 1500,420" />
+    <path d="M-100,600 C400,500 900,680 1500,550" />
+    <path d="M-100,680 C420,580 920,740 1500,680" />
+    <path d="M-100,760 C440,660 940,800 1500,800" />
+
+    <!-- Latitudinal cross-lines -->
+    <path d="M100,100 C150,300 180,500 200,800" />
+    <path d="M250,80 C310,280 340,480 370,800" />
+    <path d="M400,70 C460,260 510,470 540,800" />
+    <path d="M550,70 C620,250 670,460 710,800" />
+    <path d="M700,70 C770,240 830,460 880,800" />
+    <path d="M850,70 C920,240 990,460 1050,800" />
+    <path d="M1000,70 C1070,240 1150,460 1220,800" />
+    <path d="M1150,70 C1220,240 1310,460 1390,800" />
+    
+    <!-- Concentric tunnel circles -->
+    <ellipse cx="1100" cy="400" rx="450" ry="280" opacity="0.6"/>
+    <ellipse cx="1100" cy="400" rx="360" ry="220" opacity="0.5"/>
+    <ellipse cx="1100" cy="400" rx="270" ry="160" opacity="0.4"/>
+    <ellipse cx="1100" cy="400" rx="180" ry="100" opacity="0.3"/>
+  </g>
+</svg>

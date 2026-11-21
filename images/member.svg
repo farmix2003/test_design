@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bgMem" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#cbd5e1"/>
+      <stop offset="100%" stop-color="#94a3b8"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bgMem)"/>
+  <!-- Headshot -->
+  <g transform="translate(60, 40)">
+    <!-- Face -->
+    <ellipse cx="140" cy="120" rx="58" ry="72" fill="#fbd5b5"/>
+    <!-- Hair -->
+    <path d="M85,115 C85,45 195,45 195,115 C195,70 170,55 140,55 C110,55 85,70 85,115 Z" fill="#262626"/>
+    <!-- White shirt -->
+    <polygon points="105,190 140,230 175,190" fill="#ffffff"/>
+    <path d="M40,230 C60,195 100,190 120,190 L160,190 C180,190 220,195 240,230 L260,360 L20,360 Z" fill="#ffffff"/>
+    <!-- Purple striped tie -->
+    <polygon points="134,195 146,195 152,320 140,340 128,320" fill="#7e22ce"/>
+    <line x1="134" y1="220" x2="146" y2="230" stroke="#a855f7" stroke-width="2"/>
+    <line x1="133" y1="250" x2="147" y2="260" stroke="#a855f7" stroke-width="2"/>
+    <line x1="131" y1="280" x2="149" y2="290" stroke="#a855f7" stroke-width="2"/>
+  </g>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340">
+  <defs>
+    <linearGradient id="bgS1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="340" fill="url(#bgS1)"/>
+  <!-- Office background -->
+  <rect x="0" y="240" width="600" height="100" fill="#334155" opacity="0.4"/>
+  <!-- Laptop on desk -->
+  <polygon points="180,240 380,240 420,290 140,290" fill="#64748b"/>
+  <rect x="200" y="150" width="160" height="95" rx="4" fill="#0f172a"/>
+  <rect x="210" y="160" width="140" height="75" fill="#38bdf8" opacity="0.3"/>
+  <!-- Businessman figure -->
+  <ellipse cx="360" cy="110" rx="35" ry="42" fill="#fbd5b5"/>
+  <path d="M330,105 C330,65 390,65 390,105 C390,80 375,70 360,70 C345,70 330,80 330,105 Z" fill="#1e1e24"/>
+  <path d="M300,180 C315,145 350,140 360,140 L370,140 C380,140 415,145 430,180 L445,300 L285,300 Z" fill="#1e293b"/>
+  <!-- Phone held to ear -->
+  <rect x="385" y="95" width="14" height="32" rx="3" fill="#1e1e24" transform="rotate(15, 385, 95)"/>
+  <rect x="382" y="125" width="22" height="16" rx="4" fill="#fbd5b5"/>
+</svg>

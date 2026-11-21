@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <defs>
+    <linearGradient id="bgRec" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="400" fill="url(#bgRec)"/>
+  <!-- Team meeting illustration -->
+  <g opacity="0.4">
+    <rect x="100" y="220" width="600" height="180" fill="#334155"/>
+    <ellipse cx="250" cy="180" rx="40" ry="50" fill="#64748b"/>
+    <ellipse cx="400" cy="160" rx="45" ry="55" fill="#475569"/>
+    <ellipse cx="550" cy="180" rx="40" ry="50" fill="#64748b"/>
+  </g>
+</svg>

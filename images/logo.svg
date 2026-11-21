@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110 24" width="110" height="24" fill="none">
+  <defs>
+    <!-- Vector 1 (97.44deg) -->
+    <linearGradient id="goldGrad1" x1="0%" y1="43%" x2="100%" y2="57%">
+      <stop offset="4.93%" stop-color="#FBD252"/>
+      <stop offset="45.51%" stop-color="#AC8230"/>
+      <stop offset="68.95%" stop-color="#FDD551"/>
+      <stop offset="95.1%" stop-color="#A3782A"/>
+    </linearGradient>
+
+    <!-- Vector 2 (83.36deg) -->
+    <linearGradient id="goldGrad2" x1="0%" y1="56%" x2="100%" y2="44%">
+      <stop offset="4.51%" stop-color="#FBD252"/>
+      <stop offset="45.45%" stop-color="#AC8230"/>
+      <stop offset="69.11%" stop-color="#FDD551"/>
+      <stop offset="95.49%" stop-color="#A3782A"/>
+    </linearGradient>
+
+    <!-- Vector 3 (90deg) -->
+    <linearGradient id="goldGrad3" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#FBD252"/>
+      <stop offset="45%" stop-color="#AC8230"/>
+      <stop offset="71%" stop-color="#FDD551"/>
+      <stop offset="100%" stop-color="#A3782A"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 25x20 Emblem Mark (3 interlocking wireframe polygons matching Figma) -->
+  <g id="emblem-25x20" transform="translate(0, 2)">
+    <!-- Vector 2: Base Hexagon -->
+    <polygon points="6.2,0.8 17.5,0.8 23.3,9.9 17.5,19.1 6.2,19.1 0.4,9.9" 
+             stroke="url(#goldGrad2)" stroke-width="0.9" fill="none"/>
+
+    <!-- Vector 3: Offset / Rotated Hexagon 2 -->
+    <polygon points="7.8,0.2 19.8,1.8 23.5,11.2 16.2,18.8 5.2,17.2 1.5,7.8" 
+             stroke="url(#goldGrad3)" stroke-width="0.9" fill="none"/>
+
+    <!-- Vector 1: Offset / Rotated Hexagon 3 -->
+    <polygon points="4.8,2.2 16.4,0.3 22.8,8.2 19.2,17.8 7.6,19.7 1.2,11.8" 
+             stroke="url(#goldGrad1)" stroke-width="0.9" fill="none"/>
+  </g>
+
+  <!-- LOGO Typography (Figma exact: high-contrast serif, #FFFFFF) -->
+  <text x="32" y="18.5" 
+        font-family="'Cormorant Garamond', 'Didot', 'Bodoni MT', 'Cinzel', serif" 
+        font-size="20" 
+        font-weight="700" 
+        fill="#FFFFFF" 
+        letter-spacing="0.08em">LOGO</text>
+</svg>

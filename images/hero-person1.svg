@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <defs>
+    <linearGradient id="bgGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="suitGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#334155"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="skinGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbd5b5"/>
+      <stop offset="100%" stop-color="#e0a97c"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="500" fill="url(#bgGrad1)"/>
+  
+  <!-- Subtle office backdrop -->
+  <rect x="50" y="80" width="120" height="240" fill="#334155" opacity="0.3"/>
+  <rect x="220" y="50" width="160" height="270" fill="#334155" opacity="0.2"/>
+  
+  <!-- Person silhouette (Businessman in suit) -->
+  <g transform="translate(100, 70)">
+    <!-- Head -->
+    <ellipse cx="150" cy="120" rx="55" ry="70" fill="url(#skinGrad1)"/>
+    <!-- Hair -->
+    <path d="M95,110 C95,50 205,50 205,110 C205,75 180,60 150,60 C120,60 95,75 95,110 Z" fill="#1e1e24"/>
+    <!-- Collar & Shirt -->
+    <polygon points="125,180 150,225 175,180 160,175 140,175" fill="#f8fafc"/>
+    <!-- Tie -->
+    <polygon points="144,185 156,185 160,280 150,300 140,280" fill="#cfa746"/>
+    <!-- Suit Shoulders -->
+    <path d="M50,230 C70,185 120,180 135,180 L165,180 C180,180 230,185 250,230 L280,380 L20,380 Z" fill="url(#suitGrad1)"/>
+    <!-- Lapels -->
+    <polygon points="135,180 150,270 120,240 100,210" fill="#0f172a" opacity="0.6"/>
+    <polygon points="165,180 150,270 180,240 200,210" fill="#0f172a" opacity="0.6"/>
+  </g>
+</svg>

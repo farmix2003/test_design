@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <defs>
+    <linearGradient id="bgGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#142e1e"/>
+      <stop offset="100%" stop-color="#0a1910"/>
+    </linearGradient>
+    <linearGradient id="suitGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="skinGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbd5b5"/>
+      <stop offset="100%" stop-color="#e0a97c"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="500" fill="url(#bgGrad3)"/>
+  
+  <g transform="translate(100, 80)">
+    <ellipse cx="150" cy="115" rx="52" ry="65" fill="url(#skinGrad3)"/>
+    <path d="M100,105 C100,50 200,50 200,105 C200,70 175,55 150,55 C125,55 100,70 100,105 Z" fill="#18181b"/>
+    <polygon points="128,170 150,210 172,170" fill="#ffffff"/>
+    <polygon points="145,175 155,175 158,255 150,270 142,255" fill="#3b82f6"/>
+    <path d="M60,215 C80,175 130,170 145,170 L155,170 C170,170 220,175 240,215 L260,370 L40,370 Z" fill="url(#suitGrad3)"/>
+  </g>
+</svg>

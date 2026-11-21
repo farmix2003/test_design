@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360">
+  <defs>
+    <linearGradient id="bgCS" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f1f5f9"/>
+      <stop offset="100%" stop-color="#cbd5e1"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="360" fill="url(#bgCS)"/>
+  <!-- Two executives shaking hands -->
+  <g transform="translate(60, 40)">
+    <!-- Person Left -->
+    <ellipse cx="120" cy="90" rx="36" ry="45" fill="#fbd5b5"/>
+    <path d="M90,85 C90,45 150,45 150,85 C150,65 135,55 120,55 C105,55 90,65 90,85 Z" fill="#334155"/>
+    <path d="M50,170 C70,135 100,130 120,130 L135,130 C155,130 170,135 180,170 L195,300 L35,300 Z" fill="#1e293b"/>
+    <!-- Arm extending forward right -->
+    <path d="M160,190 L240,225 L230,250 L150,215 Z" fill="#1e293b"/>
+    
+    <!-- Person Right -->
+    <ellipse cx="360" cy="90" rx="36" ry="45" fill="#fbd5b5"/>
+    <path d="M330,85 C330,45 390,45 390,85 C390,65 375,55 360,55 C345,55 330,65 330,85 Z" fill="#1e1e24"/>
+    <path d="M290,170 C310,135 340,130 360,130 L375,130 C395,130 425,135 445,170 L455,300 L285,300 Z" fill="#0f172a"/>
+    <!-- Arm extending forward left -->
+    <path d="M320,190 L240,225 L250,250 L330,215 Z" fill="#0f172a"/>
+    
+    <!-- Clasped hands -->
+    <ellipse cx="240" cy="235" rx="22" ry="16" fill="#fbd5b5"/>
+  </g>
+</svg>

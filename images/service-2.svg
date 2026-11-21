@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340">
+  <defs>
+    <linearGradient id="bgS2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="340" fill="url(#bgS2)"/>
+  <!-- Meeting table view with data documents -->
+  <polygon points="50,140 550,140 580,340 20,340" fill="#334155" opacity="0.3"/>
+  <!-- Paper/Report sheets -->
+  <rect x="180" y="170" width="180" height="130" rx="2" fill="#ffffff" opacity="0.9" transform="rotate(-5, 270, 235)"/>
+  <!-- Bar chart graphics on paper -->
+  <rect x="200" y="240" width="16" height="40" fill="#22c55e"/>
+  <rect x="225" y="220" width="16" height="60" fill="#3b82f6"/>
+  <rect x="250" y="195" width="16" height="85" fill="#f59e0b"/>
+  <rect x="275" y="180" width="16" height="100" fill="#10b981"/>
+  <!-- Pie chart -->
+  <circle cx="320" cy="225" r="24" fill="#3b82f6"/>
+  <path d="M320,225 L320,201 A24,24 0 0,1 344,225 Z" fill="#ef4444"/>
+  <!-- Pointing pen / hand -->
+  <rect x="360" y="160" width="8" height="90" rx="3" fill="#0f172a" transform="rotate(-40, 360, 160)"/>
+  <ellipse cx="400" cy="230" rx="28" ry="18" fill="#fbd5b5" transform="rotate(-20, 400, 230)"/>
+</svg>
